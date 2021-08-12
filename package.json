@@ -38,11 +38,10 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.3.2"
   },
- 
-  "husky":{
-    "hooks":{
-      "pre-commit":"ng test",
-      "pre-push":""
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test",
+      "pre-push": ""
     }
   }
 }
